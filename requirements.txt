@@ -1,0 +1,10 @@
+pyradiomics==3.0.1
+SimpleITK>=2.3.0
+nibabel>=5.2.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scipy==1.11.4
+pydicom>=2.4.0

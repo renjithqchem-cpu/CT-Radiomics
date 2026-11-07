@@ -1,0 +1,72 @@
+{
+ "baseline_p": [
+  0.27,
+  0.03666666666666665,
+  0.03557971014492752
+ ],
+ "baseline_order": [
+  "5-bromouracil",
+  "5-iodouridine",
+  "5-fluorouridine",
+  "2-nitrofuran",
+  "catechin sulfate"
+ ],
+ "ratio_FUrd_over_2NF": 66.15697947673512,
+ "ratio_2NF_over_Cat": 164.18166385156857,
+ "feasible_cells": 150050,
+ "cells_with_other_order": 1446,
+ "other_orders": {
+  "5-bromouracil > 5-iodouridine > 5-fluorouridine > 2-nitrofuran > catechin sulfate": 148604,
+  "5-bromouracil > 5-iodouridine > 2-nitrofuran > 5-fluorouridine > catechin sulfate": 1130,
+  "2-nitrofuran > 5-bromouracil > 5-iodouridine > 5-fluorouridine > catechin sulfate": 91,
+  "5-bromouracil > 2-nitrofuran > 5-iodouridine > 5-fluorouridine > catechin sulfate": 225
+ },
+ "f0_below_which_order_changes_at_mu9": 0.008,
+ "f0_scan_mu9_other_order_max": 0.008,
+ "frontier_max_f0_with_other_order_by_mu": {
+  "2.0": null,
+  "3.0": null,
+  "4.0": null,
+  "5.0": null,
+  "6.0": null,
+  "7.0": null,
+  "8.0": null,
+  "9.0": 0.008,
+  "10.0": 0.007000000000000001,
+  "11.0": 0.006500000000000001,
+  "12.0": 0.0055,
+  "13.0": 0.0045000000000000005,
+  "14.0": 0.0035,
+  "15.0": 0.0025,
+  "16.0": 0.0015
+ },
+ "density_ratio_p1_over_p0": 1.0321072952651902,
+ "delta_f0_equal_to_density_effect": 0.00866896972160135,
+ "relative_change_in_f0_equal_to_density_effect_pct": 3.2,
+ "f0_plus_5pct": {
+  "order_same": true,
+  "score_ratio_FUrd_over_2NF": 73.50696286472152,
+  "FUrd_score_rel_change_pct": 5.000000000000004,
+  "twoNF_score_rel_change_pct": -5.498981670061099
+ },
+ "f0_plus_10pct": {
+  "order_same": true,
+  "score_ratio_FUrd_over_2NF": 81.76518218623485,
+  "FUrd_score_rel_change_pct": 10.000000000000009,
+  "twoNF_score_rel_change_pct": -10.997963340122197
+ },
+ "f0_plus_20pct": {
+  "order_same": true,
+  "score_ratio_FUrd_over_2NF": 101.77465354488857,
+  "FUrd_score_rel_change_pct": 19.999999999999996,
+  "twoNF_score_rel_change_pct": -21.99592668024438
+ },
+ "mc_range_manuscript": {
+  "feasible": 19898,
+  "different_order_fraction": 0.0
+ },
+ "mc_wide": {
+  "feasible": 8765,
+  "different_order_fraction": 0.0
+ }
+}

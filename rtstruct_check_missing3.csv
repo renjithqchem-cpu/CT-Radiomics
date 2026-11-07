@@ -1,0 +1,4 @@
+patient_id,status,n_rtstruct_files,roi_name_used,n_contours,contours_off_grid,max_contour_slice_offset_vox,rtstruct_volume_mL,mask_volume_mL,volume_ratio_rt_over_mask,dice,rt_slices,mask_slices,slice_range_equal
+LUNG1-402,ok,1,GTV-1,25,0,0.0,82.581,82.581,1.0,1.0,25,25,True
+LUNG1-409,ok,1,GTV-1,17,0,0.0,63.612,63.612,1.0,1.0,17,17,True
+LUNG1-421,ok,1,GTV-1,15,0,0.0,42.237,42.237,1.0,1.0,15,15,True

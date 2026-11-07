@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+.env
+
+# Raw and converted imaging data (large; download from TCIA, see README)
+*.dcm
+*.nii
+*.nii.gz
+nsclc_radiomics/
+raw*/
+data_rtstruct/
+stray_downloads/
+
+# Archives and bulk files
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.npz
+
+# Run logs and temporary files
+*.log
+nohup.out
+*.tmp
+*.bak
+
+# Old or superseded outputs (not part of the 421-patient release)
+results_v*/
+test_v*.py
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
