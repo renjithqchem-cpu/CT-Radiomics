@@ -48,7 +48,7 @@ See `requirements.txt` and `environment.yml` (exact versions in `requirements_pi
 
 ## Citation
 
-If you use this code, please cite the associated manuscript (full citation to be added on publication), the archived release (Zenodo DOI to be added) and, where relevant, the original data sources listed above.
+If you use this code, please cite the associated manuscript (full citation to be added on publication), the archived release (DOI: 10.5281/zenodo.24026755) and, where relevant, the original data sources listed above.
 
 ## License
 
